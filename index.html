@@ -16,11 +16,13 @@
     tr:nth-child(even) { background: #f0f0f0; }
     .total { font-weight: bold; background: #e0e0e0; }
     footer { margin-top: 3em; font-size: 0.9em; color: #666; }
+    button { background:#005a9c; color:white; padding:10px 20px; border:none; font-size:1em; margin-top:20px; cursor:pointer; }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://copilot.microsoft.com/th/id/BCO.8ec96b2d-7612-4198-a2f7-18367b7841d2.png" alt="Agency Logo" />
+    <!-- Replace with your actual logo -->
+    <img src="logo.svg" alt="Company Logo" />
     <div>
       <h1>Global Relocation & Travel Services</h1>
       <p><strong>Travel Agency Invoice</strong> — Version 2.5 Flash</p>
@@ -28,7 +30,7 @@
   </header>
 
   <div class="section-title">Client Information</div>
-  <p><strong>Name:</strong> Jane Muenger<br/>
+  <p><strong>Name:</strong> Jane Maunger<br/>
      <strong>Destination:</strong> Fürstenfeldbruck, Germany<br/>
      <strong>Client Ref. No.:</strong> JM-RELOC-2025</p>
 
@@ -64,6 +66,10 @@
   <p><strong>Global Relocation & Travel Services</strong><br/>
      Signature: ___________________________<br/>
      Date: 25-Sep-2025</p>
+  <!-- Replace with your actual signature -->
+  <img src="signature.png" alt="Authorized Signature" style="height:50px;"/>
+
+  <button onclick="window.print()">Download / Print Invoice</button>
 
   <footer>
     Contact: support@globalreloc.com | +1-800-555-TRVL | www.globalreloc.com
