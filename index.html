@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Agency Invoice</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 2em; background: #f9f9f9; color: #333; }
+    header { display: flex; align-items: center; margin-bottom: 2em; }
+    header img { height: 60px; margin-right: 1em; }
+    h1 { font-size: 1.8em; margin: 0; }
+    .section-title { background: #005a9c; color: white; padding: 0.5em; margin-top: 2em; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { padding: 0.75em; border: 1px solid #ccc; text-align: left; }
+    th { background: #005a9c; color: white; }
+    tr:nth-child(even) { background: #f0f0f0; }
+    .total { font-weight: bold; background: #e0e0e0; }
+    footer { margin-top: 3em; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://copilot.microsoft.com/th/id/BCO.8ec96b2d-7612-4198-a2f7-18367b7841d2.png" alt="Agency Logo" />
+    <div>
+      <h1>Global Relocation & Travel Services</h1>
+      <p><strong>Travel Agency Invoice</strong> — Version 2.5 Flash</p>
+    </div>
+  </header>
+
+  <div class="section-title">Client Information</div>
+  <p><strong>Name:</strong> Jane Muenger<br/>
+     <strong>Destination:</strong> Fürstenfeldbruck, Germany<br/>
+     <strong>Client Ref. No.:</strong> JM-RELOC-2025</p>
+
+  <div class="section-title">Invoice Summary</div>
+  <table>
+    <tr><th>Category</th><th>Details</th><th>Amount (USD)</th><th>Status</th></tr>
+    <tr><td>Processing Fee</td><td>2025/VISA-001 — Bank Transfer (JMV001)</td><td>$87.00</td><td>PAID</td></tr>
+    <tr><td>Documentation Services</td><td>2025/RELOC-002 — Passport, Biometrics (RS-JMAU)</td><td>$230.00</td><td>PAID</td></tr>
+    <tr><td>Translation</td><td>2025/TR-005 — Birth Certificate, Academic Docs</td><td>$45.00</td><td>PAID</td></tr>
+    <tr><td>Health Insurance</td><td>2023FJH-006 — EU Area, €30,000 Coverage</td><td>$406.00</td><td>PAID</td></tr>
+    <tr><td>Blocked Account</td><td>2025/SPK-003 — Sprachenkonto Confirmation</td><td>$1,599.20</td><td>PAID</td></tr>
+    <tr><td>Accommodation Deposit</td><td>2023APT-C-007 — Feldstraße 12, Fürstenfeldbruck</td><td>$500.00</td><td>PAID</td></tr>
+    <tr><td>Flight Booking</td><td>JMBK140 — LEX to MUC, Lufthansa/Delta</td><td>Included</td><td>PAID</td></tr>
+  </table>
+
+  <div class="section-title">Total Summary</div>
+  <table>
+    <tr><td>Total Fees (Visa, Docs, Translation)</td><td>$870.00</td></tr>
+    <tr><td>Total Documentation & Insurance</td><td>$2,320.00</td></tr>
+    <tr class="total"><td>GRAND TOTAL PAID</td><td>$3,190.00</td></tr>
+  </table>
+
+  <div class="section-title">Notes & References</div>
+  <ul>
+    <li>All payments confirmed between 18–24 Sep 2025.</li>
+    <li>Currency conversion: 1 USD ≈ 0.86 EUR.</li>
+    <li>Flight ticket handled via employer; e-ticket attached.</li>
+    <li>Accommodation verified with landlord Max Müller.</li>
+    <li>Insurance policy meets EU travel requirements.</li>
+  </ul>
+
+  <div class="section-title">Authorized By</div>
+  <p><strong>Global Relocation & Travel Services</strong><br/>
+     Signature: ___________________________<br/>
+     Date: 25-Sep-2025</p>
+
+  <footer>
+    Contact: support@globalreloc.com | +1-800-555-TRVL | www.globalreloc.com
+  </footer>
+</body>
+</html>
